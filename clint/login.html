@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول - Car Assist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body dir="rtl">
+  <header>
+    <img src="assets/logo.jpeg" alt="Logo">
+    <h1>Car Assist</h1>
+  </header>
+  <main>
+    <h2>تسجيل الدخول</h2>
+    <input id="email" type="email" placeholder="البريد الإلكتروني">
+    <input id="password" type="password" placeholder="كلمة المرور">
+    <button onclick="login()">دخول</button>
+
+    <h2>أو إنشاء حساب جديد</h2>
+    <input id="reg_username" type="text" placeholder="اسم المستخدم">
+    <input id="reg_email" type="email" placeholder="البريد الإلكتروني">
+    <input id="reg_password" type="password" placeholder="كلمة المرور">
+    <button onclick="register()">تسجيل</button>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
